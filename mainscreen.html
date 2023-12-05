@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="mainscreen.css">
+    <title>Hokage</title>
+    <link rel="icon" href="otherImages/favicon.ico">
+</head>
+
+<body>
+    <div>
+    </div>
+    <div class="background" id="background">
+        <div class="topic" id="topic">Hokage</div>
+        <img src="desertTiles/png/Objects/Skeleton.png" class="skeleton" id="skeleton" />
+        <button class="playbutton" id="playbutton"><a href="game.html" class="buttonlink">PLAY</a></button>
+        <button class="Insbtn" id="Insbtn" onclick="openIns()">Instructions</button>
+        <div class="popup" id="popup">
+            <div class="insHeader" id="insHeader">
+                <div class="insTitle">Do you want really play Hokage?</div>
+                <div class="closeButton" id="closeButton" onclick="closeIns()">&times;</div>
+            </div>
+            <div class="insBody" id="insBody">
+                <ul>
+                    <li>To start press Enter key or Space key.</li>
+                    <li>To jump press the Space key.</li>
+                    <li>Jump to protect your charecter from bombs.</li>
+                    <li>To win get 100 marks.</li>
+                    <li>Have Fun.</li>
+                </ul>
+            </div>
+        </div>
+        <div id="overlay" class="overlay"></div>
+
+        
+    </div>
+    <script src="mainscreen.js"></script>
+</body>
+
+</html>

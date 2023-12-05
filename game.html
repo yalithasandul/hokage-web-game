@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Hokage</title>
+
+        <link rel="stylesheet" href="game.css" />
+
+        <link rel="icon" href="otherImages/favicon.ico">
+
+    </head>
+
+    <body class="body" onkeypress="keyCheck(event);" onload="mainThemeSong();">
+
+        <div class="background" id="background">
+
+            <img src="ninja/png/Idle__1.png" id="player" class="player"/>
+            
+                <div id="ground" class="ground">
+                <!--<img src="desertTiles/png/ground.png" class="ground" id="ground">-->
+                </div>
+
+                    <div class="score" id="score">0</div>
+
+                    <div class="endscreen", id="endscreen">
+                        <div> Game Over!</div>
+                        <div> your Score is</div>
+                        <div class="endScore" id="endScore"> 0 </div>
+
+                        <button class="btn" id="btn" onclick="reload()"> Try Again </button>
+                    </div>
+                    <div class="winscreen", id="winscreen">
+                        <div class="won" id="won">Congratulations</div>
+                        <div> You Won!</div>
+                        <div> your Score is</div>
+                        <div class="winScore" id="winScore"> 0 </div>
+
+                        <button class="btnwin" id="btnwin" onclick="reload()"> Try Again </button>
+                    </div>
+                
+        </div>
+
+        <script src="game.js"></script>
+
+    </body>
+
+</html> 

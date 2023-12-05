@@ -1,0 +1,215 @@
+.background {
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+    background-image: url("otherImages/city.jpg");
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    position: absolute;
+    flex-direction: column;
+    margin-top: 750px;
+}
+
+body {
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(56, 56, 56);
+    overflow: hidden;
+}
+
+.playbutton {
+    color: rgb(255, 255, 255);
+    margin: 0;
+    /*border: 0;*/
+    border-color: white;
+    background-color: rgba(114, 114, 114, 0.616);
+    border-radius: 8px;
+    width: 350px;
+    height: 50px;
+    font-size: 30px;
+}
+
+.playbutton:hover {
+    color: rgb(255, 255, 255);
+    margin: 0;
+    /*border: 0;*/
+    border-color: white;
+    background-color: rgba(114, 114, 114, 0.616);
+    border-radius: 8px;
+    width: 355px;
+    height: 55px;
+    font-size: 31px;
+}
+
+.skeleton {
+    margin-left: 0px;
+}
+
+.topic {
+    font-size: 60px;
+    color: rgba(0, 0, 0, 0.705);
+    font-weight: bold;
+    font-family: cursive;
+    margin-top: -100;
+}
+
+.buttonlink {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.Insbtn {
+    color: rgb(0, 0, 0);
+    margin: 0;
+    /*border: 0;*/
+    border-color: white;
+    background-color: rgba(114, 114, 114, 0.616);
+    border-radius: 8px;
+    width: 350px;
+    height: 50px;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.Insbtn:hover {
+    color: rgb(0, 0, 0);
+    margin: 0;
+    /*border: 0;*/
+    border-color: white;
+    background-color: rgba(114, 114, 114, 0.616);
+    border-radius: 8px;
+    width: 355px;
+    height: 55px;
+    font-size: 31px;
+    margin-top: 20px;
+}
+
+/*.ins{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    transition: 200ms ease-in-out;
+    border: 1px solid black;
+    border-radius: 10px;
+    z-index: 10;
+    background-color: white;
+    width: 500px;
+    max-width: 80%;
+    visibility: hidden;
+}
+
+.ins.active{
+    transform: translate(-50%, -50%) scale(1);
+    visibility: visible;
+}
+
+.insHeader{
+    padding: 10px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+
+.insHeader .insTitle{
+    font-size: 1.25rem;
+    font-weight: bold;
+    visibility: hidden;
+}
+
+.insHeader .close-button {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 1.25rem;
+    font-weight: bold;
+    visibility: hidden;
+}
+
+.insBody{
+    padding: 18px 15px;
+}
+
+.overlay{
+    position: fixed;
+    visibility: hidden; 
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .5);
+    pointer-events: none;
+    transition: 200ms ease-in-out;
+}
+
+.overlay.active {
+    visibility: visible;
+    pointer-events: all;
+}*/
+
+.overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    z-index: 1; /* Ensure the overlay is on top */
+}
+
+/* Style for the popup container */
+.popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+    padding: 20px;
+    border: 0;
+    /*box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);*/
+    z-index: 2; /* Ensure the popup is on top of the overlay */
+    background-image: url("otherImages/Windows.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 40%;
+    height: 50%;
+    justify-content: 50%;
+}
+
+.insHeader{
+    /*display: flex;
+    justify-content: space-evenly;*/
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+}
+
+.insTitle{
+    margin-top: 20%;
+    margin-left: 8%;
+    font-weight: bold;
+}
+
+.insBody{
+    color: rgb(233, 233, 233);
+    font-size: 1.5vw;
+    font-style: italic;
+}
+
+/* Style for the close button */
+.closeButton {
+    position: absolute;
+    cursor: pointer;
+    font-weight: bolder;
+    margin-top: -21%;
+    margin-left: 60%;
+    font-size: larger;
+    color: rgb(0, 0, 0);
+}

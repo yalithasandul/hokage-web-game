@@ -1,0 +1,148 @@
+.background {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("otherImages/city.jpg");
+    background-size: cover;
+    overflow: hidden;
+    margin-top: 750px;
+}
+
+.body {
+    margin: 0px;
+    overflow-x: hidden;
+    overflow-y: clip;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(56, 56, 56);
+    min-width: 100%;
+}
+
+.player {
+    position: absolute;
+    height: 220px;
+    margin-top: 450px;
+    margin-left: 100px;
+}
+
+.score {
+    position: absolute;
+    font-size: 60px;
+    font-weight: bold;
+    font-family: arial;
+    margin-left: 30px;
+}
+
+/*.highScore {
+    position: absolute;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: arial;
+    margin-left: 300px;
+}*/
+
+.block {
+    background-image: url("otherImages/minerBomb.png");
+    background-size: cover;
+    width: 100px;
+    height: 75px;
+    margin-top: 625px;
+    position: absolute;
+    direction: row;
+}
+
+.endscreen {
+    position: absolute;
+    width: 500px;
+    height: 350px;
+
+    font-size: 60px;
+    font-weight: bold;
+    font-family: arial;
+
+    margin-left: 32.5%;
+    margin-top: 100px;
+
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+    flex-direction: column;
+    color: transparent;
+
+}
+
+.endScore {
+    color: transparent;
+}
+
+.btn {
+    position: absolute;
+    width: 300px;
+    height: 50px;
+    font-size: 40px;
+    font-family: arial;
+    font-weight: bold;
+    background-color: transparent;
+    color: transparent;
+    margin-top: 300px;
+    border: none;
+    border-radius: 10px;
+
+}
+
+.ground {
+    margin-top: 650px;
+    position: absolute;
+    background-size: cover;
+    width: 100%;
+    height: 15.5%;
+    background-image: url("desertTiles/png/ground.png");
+}
+
+.winscreen {
+    position: absolute;
+    width: 500px;
+    height: 350px;
+
+    font-size: 55px;
+    font-weight: bold;
+    font-family: arial;
+
+    margin-left: 32.5%;
+    margin-top: 100px;
+
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+    flex-direction: column;
+    color: transparent;
+
+}
+
+.winScore {
+    color: transparent;
+}
+
+.btnwin {
+    position: absolute;
+    width: 300px;
+    height: 50px;
+    font-size: 40px;
+    font-family: arial;
+    font-weight: bold;
+    background-color: transparent;
+    color: transparent;
+    margin-top: 310px;
+    border: none;
+    border-radius: 10px;
+
+}
+
+
+/*congratulations*/
+.won{
+    color: transparent;
+}
