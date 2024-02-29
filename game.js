@@ -102,14 +102,14 @@ function jump() {
 
     if (jumpFrameNo == 11) {
         jumpFrameNo = 1;
-        player.src = "ninja/png/Jump_" + jumpFrameNo + ".png";
+        player.src = "ninja/png/Jump__" + jumpFrameNo + ".png";
         clearInterval(jumpWorkerId);
         runWorkerId = setInterval(run, 100);
         runSound.play();
         jumpWorkerId = 0
     }
     else {
-        player.src = "ninja/png/Jump_" + jumpFrameNo + ".png";
+        player.src = "ninja/png/Jump__" + jumpFrameNo + ".png";
         jumpFrameNo++;
     }
 }
