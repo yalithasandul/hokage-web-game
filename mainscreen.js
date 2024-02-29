@@ -1,9 +1,9 @@
-//var mainThemeMusic = new Audio("sounds/NINJAMainMenuSong.mp3");
-////mainThemeMusic.loop = true;
-//
-//function mainThemeSong() {
-//    mainThemeMusic.play()
-//}
+var mainThemeMusic = new Audio("sounds/NINJAMainMenuSong.mp3");
+//mainThemeMusic.loop = true;
+
+function mainThemeSong() {
+   mainThemeMusic.play()
+}
 
 //const openInsButton = document.querySelector("data-ins-target");
 //const closeInsButton = document.querySelector('data-close-button');
